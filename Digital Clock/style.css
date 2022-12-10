@@ -1,0 +1,34 @@
+/* Fonts */
+@font-face {
+  font-family: "digi-font";
+  src: url("./fonts/DS-DIGIB.TTF") format("truetype");
+}
+
+/* Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font: 1.6rem "digi-font";
+  background-color: #1b1b1b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles */
+.time {
+  font-size: 13rem;
+  background-color: #1b1b1b;
+}
